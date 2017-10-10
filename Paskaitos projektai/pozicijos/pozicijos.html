@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      div{
+        height: 100px;
+        width: 100px;
+        background: silver;
+        opacity: 0.5;
+        border: 1px solid black;
+      }
+
+      .pirmas{
+        position: absolute;
+        left:150px;
+        height: 2000px;
+      }
+
+      .antras{
+        position: relative;
+        left:500px;
+      }
+
+      .antras2{
+        position: absolute;
+        left:50px;
+      }
+
+      .trecias{
+        position: fixed;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="pirmas" id="pradzia">
+      test1
+    </div>
+
+    <div class="antras">
+      test2
+      <div class="antras2">
+        test22
+      </div>
+    </div>
+
+    <div class="trecias">
+      <a href="#pradzia">Grizk</a>
+    </div>
+
+  </body>
+</html>
