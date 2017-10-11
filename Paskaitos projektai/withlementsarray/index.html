@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .laukas{
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        font-size: 30pt;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0" />
+    <input class="laukas" value="0 "/>
+    <input class="laukas" value="0 "/>
+    <script>
+      var elementai = document.getElementsByClassName("laukas");
+
+      for(var i=0;i<elementai.length;i++){
+
+        elementai[i].addEventListener("mouseover", function(){
+          this.value = Number(this.value) + 1; // this reiskia elementas ant kurio paspaudziau
+
+          switch (this.value) {
+            case "1":
+              this.style.backgroundColor = "yellow";
+              break;
+            case "2":
+              this.style.backgroundColor = "green";
+              break;
+            case "3":
+              this.style.backgroundColor = "red";
+              break;
+            case "4":
+              this.style.backgroundColor = "blue";
+              break;
+            case "5":
+              this.style.backgroundColor = "purple";
+              break;
+            case "6":
+              this.style.backgroundColor = "purple";
+              break;
+            case "7":
+              this.style.backgroundColor = "silver";
+              break;
+            case "8":
+              this.style.backgroundColor = "orange";
+              break;
+            default:
+
+          }
+        })
+      }
+
+    </script>
+  </body>
+</html>
