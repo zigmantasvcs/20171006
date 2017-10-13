@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/calendar.css">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="js/calendar.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".button-collapse").sideNav();
+        init();
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="sass.html">Skaičiuotuvas</a></li>
+              <li><a href="calendar.html">Kalendorius</a></li>
+            </ul>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="sass.html">Skaičiuotuvas</a></li>
+              <li><a href="calendar.html">Kalendorius</a></li>
+            </ul>
+
+          </div>
+        </nav>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <div id="calendar">
+            <div class="dayDetails">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

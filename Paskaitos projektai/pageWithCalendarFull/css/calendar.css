@@ -1,0 +1,23 @@
+.day{
+  width: 14%;
+  height: 100px;
+  float: left;
+  margin: 1px;
+  background: silver;
+}
+
+
+#calendar{
+  margin: auto;
+  overflow: auto;
+}
+
+.dayDetails{
+  position: absolute;
+  background: purple;
+  opacity: 0.9;
+  padding-top:200px;
+  padding-left: 30px;
+  color: white;
+  visibility: hidden;
+}
