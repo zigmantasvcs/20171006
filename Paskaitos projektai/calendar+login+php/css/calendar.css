@@ -1,0 +1,35 @@
+.day{
+  width: 14%;
+  height: 100px;
+  float: left;
+  margin: 1px;
+  background: silver;
+}
+
+#calendar{
+  overflow: auto;
+}
+
+.dayDetails{
+  position: absolute;
+  background: purple;
+  opacity: 0.9;
+  padding-top:200px;
+  padding-left: 30px;
+  color: white;
+  visibility: hidden;
+}
+.event{
+  padding: 2px;
+  float:left;
+  background: olive;
+  margin: 1px;
+}
+.dayNumber{
+  width: 100%;
+  padding: 2px;
+  float:left;
+}
+#day20 div.event{
+  background: red;
+}
